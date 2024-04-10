@@ -9,7 +9,7 @@ class Program
 
     static int Solution(int[] numbers)
     {
-        int small = 0;
+        int small = numbers[0];
         for (int i = 1; i < numbers.Length; i++)
         {
             if (numbers[i] < small)
